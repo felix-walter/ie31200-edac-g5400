@@ -1,0 +1,1 @@
+obj-m += ie31200_edac_mod.o

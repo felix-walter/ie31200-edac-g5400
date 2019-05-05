@@ -45,7 +45,7 @@
 #include <linux/io-64-nonatomic-lo-hi.h>
 #include "edac_module.h"
 
-#define EDAC_MOD_STR "ie31200_edac"
+#define EDAC_MOD_STR "ie31200_edac_mod"
 
 #define ie31200_printk(level, fmt, arg...) \
 	edac_printk(level, "ie31200", fmt, ##arg)
