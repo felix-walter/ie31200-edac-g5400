@@ -31,6 +31,10 @@
 #include <linux/types.h>
 #include <linux/workqueue.h>
 
+#ifndef EDAC_DEVICE_NAME_LEN
+#define EDAC_DEVICE_NAME_LEN 31
+#endif /* EDAC_DEVICE_NAME_LEN */
+
 #ifdef CONFIG_PCI
 
 struct edac_pci_counter {
