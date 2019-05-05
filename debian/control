@@ -1,0 +1,8 @@
+Source: ie31200-edac-mod-dkms
+Maintainer: Felix Walter <code@felix-walter.eu>
+Build-Depends: debhelper (>= 9), dkms
+
+Package: ie31200-edac-mod-dkms
+Architecture: all
+Depends: ${misc:Depends}
+Description: DKMS source for the Intel E3-1200 EDAC driver, modified for Pentium G5400

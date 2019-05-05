@@ -1,0 +1,5 @@
+ie31200-edac-mod-dkms (1.0-0) stretch; urgency=medium
+
+  * Initial package.
+
+ -- Felix Walter <code@felix-walter.eu>  Sun, 5 May 2019 14:40:00 +0200
