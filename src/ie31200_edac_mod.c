@@ -59,6 +59,8 @@
 #define PCI_DEVICE_ID_INTEL_IE31200_HB_7 0x0c08
 #define PCI_DEVICE_ID_INTEL_IE31200_HB_8 0x1918
 #define PCI_DEVICE_ID_INTEL_IE31200_HB_9 0x5918
+/* Intel Coffee Lake Pentium Gold G5400 */
+#define PCI_DEVICE_ID_INTEL_IE31200_HB_10 0x3e0f
 
 #define IE31200_DIMMS			4
 #define IE31200_RANKS			8
@@ -567,6 +569,9 @@ static const struct pci_device_id ie31200_pci_tbl[] = {
 		IE31200},
 	{
 		PCI_VEND_DEV(INTEL, IE31200_HB_9), PCI_ANY_ID, PCI_ANY_ID, 0, 0,
+		IE31200},
+	{
+		PCI_VEND_DEV(INTEL, IE31200_HB_10), PCI_ANY_ID, PCI_ANY_ID, 0, 0,
 		IE31200},
 	{
 		0,
