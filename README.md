@@ -1,5 +1,10 @@
 # Intel E3 1200 EDAC driver, patched to work with Pentium G5400
 
+**NOTE:** This is not needed anymore, the `ie31200_edac` supports the G5400
+since [Linux v5.3](https://github.com/torvalds/linux/commit/c452a9d30feb79787ada829d7d7c99574c77049f).
+I am leaving this repository available for anyone who needs a template to build
+a DKMS-based Debian package for a single Kernel module.
+
 This is a **PoC** and **highly experimental** extension to the `ie31200_edac`
 kernel module to test support for the Intel Pentium Gold G5400.
 
